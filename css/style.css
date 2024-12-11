@@ -9607,8 +9607,17 @@ h6,
 }
 
 .bg-jumbotron {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-3.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.pestañas{
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/06.jpg), no-repeat center center;
   background-size: cover;
+}
+
+.pestañas p{
+  font-size:20px ;
 }
 
 @media (min-width: 992px) {
